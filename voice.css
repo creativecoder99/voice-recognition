@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    min-height:100vh;
+    background-color:rgb(62, 62, 39);
+    display:flex;
+
+}
+input{
+    font-size:3em;
+    color:rgb(41, 153, 153);
+    background:transparent;
+    border:none;
+    border-bottom:3px solid #bcbcbc;
+    border-left: 2px;
+    padding:10px;
+    outline:none;
+}
+button{
+    color:#bcbcbc;
+    background-color: aliceblue;
+    outline:tomato;
+    font-size:30px;
+    margin-top:300px;
+    margin-bottom: 300px;
+    padding:15px 30px;
+    border-radius:10px;
+    border:1px solid #bcbcbc;
+    cursor:pointer;
+    transition:0.3s;
+}
+button:active{
+    background-color:transparent;
+    color:blueviolet
+}
